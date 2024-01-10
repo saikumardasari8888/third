@@ -12,4 +12,9 @@ public class TestController {
         return "Hello";
     }
 
+    @GetMapping("/y")
+    public String test(){
+        return "Hello";
+    }
+
 }
